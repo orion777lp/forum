@@ -15,7 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 //Default
 Route::get('/', function (){
-   return view('welcome');
+    return view('index');
+});
+
+//Doc
+Route::get('/doc', function (){
+    $ip = request()->ip();
+   return view('doc', compact('ip'));
 });
 
 //Route for add/delete category

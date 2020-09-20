@@ -56,7 +56,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://127.0.0.1:8000/category/create</td>
+                                        <td>http://{{$ip}}/category/create</td>
                                     </tr>
                                 </table>
 
@@ -96,7 +96,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://127.0.0.1:8000/category/delete/{ID}</td>
+                                        <td>http://{{$ip}}/category/delete/{ID}</td>
                                     </tr>
                                 </table>
 
@@ -140,7 +140,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td> http://127.0.0.1:8000/post/create</td>
+                                        <td> http://{{$ip}}/post/create</td>
                                     </tr>
                                 </table>
 
@@ -186,7 +186,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://127.0.0.1:8000/post/delete/{ID}</td>
+                                        <td>http://{{$ip}}/post/delete/{ID}</td>
                                     </tr>
                                 </table>
 
@@ -231,7 +231,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://127.0.0.1:8000/subscribe/set</td>
+                                        <td>http://{{$ip}}/subscribe/set</td>
                                     </tr>
                                 </table>
 
@@ -277,7 +277,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://127.0.0.1:8000/subscribe/get/{user_id}</td>
+                                        <td>http://{{$ip}}/subscribe/get/{user_id}</td>
                                     </tr>
                                 </table>
 
@@ -319,7 +319,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://127.0.0.1:8000/comment/create</td>
+                                        <td>http://{{$ip}}/comment/create</td>
                                     </tr>
                                 </table>
 
