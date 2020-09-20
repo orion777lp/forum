@@ -56,7 +56,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://{{$ip}}/category/create</td>
+                                        <td>http://95.216.186.36/category/create</td>
                                     </tr>
                                 </table>
 
@@ -96,7 +96,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://{{$ip}}/category/delete/{ID}</td>
+                                        <td>http://95.216.186.36/category/delete/{ID}</td>
                                     </tr>
                                 </table>
 
@@ -140,7 +140,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td> http://{{$ip}}/post/create</td>
+                                        <td> http://95.216.186.36/post/create</td>
                                     </tr>
                                 </table>
 
@@ -186,7 +186,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://{{$ip}}/post/delete/{ID}</td>
+                                        <td>http://95.216.186.36/post/delete/{ID}</td>
                                     </tr>
                                 </table>
 
@@ -231,7 +231,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://{{$ip}}/subscribe/set</td>
+                                        <td>http://95.216.186.36/subscribe/set</td>
                                     </tr>
                                 </table>
 
@@ -277,7 +277,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://{{$ip}}/subscribe/get/{user_id}</td>
+                                        <td>http://95.216.186.36/subscribe/get/{user_id}</td>
                                     </tr>
                                 </table>
 
@@ -319,7 +319,7 @@
                                     </tr>
                                     <tr>
                                         <td>Адрес</td>
-                                        <td>http://{{$ip}}/comment/create</td>
+                                        <td>http://95.216.186.36/comment/create</td>
                                     </tr>
                                 </table>
 
